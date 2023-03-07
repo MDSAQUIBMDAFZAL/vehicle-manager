@@ -6,5 +6,7 @@ public class Vehicle {
                 
         private DieselEngine dE = new DieselEngine();
         dE.start();
+        private ElectricEngine eE = new ElectricEngine();
+        eE.start();
     }
 }
