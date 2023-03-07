@@ -8,5 +8,7 @@ public class Vehicle {
         dE.start();
         private ElectricEngine eE = new ElectricEngine();
         eE.start();
+        private HydrogenEngine hE = new HydrogenEngine();
+        eE.start();
     }
 }
